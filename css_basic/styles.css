@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+header, footer {
+  /* Optional: Add some padding or background if you want */
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  min-height: 0;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  min-width: 0;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  min-width: 0;
+}

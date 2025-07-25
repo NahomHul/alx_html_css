@@ -1,0 +1,195 @@
+/* General Reset */
+
+body {
+  background-image: url('images/CSS\ Advanced/Object.png');
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+header nav img {
+  height: 30px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Hero Section */
+main > section:first-of-type {
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+}
+
+main section:first-of-type h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+main section:first-of-type span {
+  margin: 0 10px;
+  font-weight: 600;
+  color: #ffffffa0;
+  font-size: 14px;
+}
+
+main section:first-of-type button {
+  background: #c271ff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Learn from the pros */
+main section:first-of-type > div:nth-of-type(2) {
+  margin-top: 4rem;
+}
+
+main section:first-of-type h2 {
+  color: #c271ff;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+main section:first-of-type > div:nth-of-type(2) > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+main section:first-of-type > div:nth-of-type(2) > div > div {
+  text-align: center;
+}
+
+main section:first-of-type > div:nth-of-type(2) > div img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Fonts under avatars */
+main section:first-of-type > div:nth-of-type(2) > div h3 {
+  font-weight: 700;
+}
+
+main section:first-of-type > div:nth-of-type(2) > div p {
+  font-size: 14px;
+  color: #ffffffa0;
+  font-style: italic;
+}
+
+/* Other sections styling (add as needed) */
+section {
+  padding: 4rem 2rem;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: #c271ff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 2rem auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #02101e;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+footer section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+footer p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #ffffffa0;
+}
+
+/* Testimonial Section */
+main > section:nth-of-type(2) {
+  background-color: #c271ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+main > section:nth-of-type(2) img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main > section:nth-of-type(2) blockquote {
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #fff;
+}
+
+main > section:nth-of-type(2) h3 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+main > section:nth-of-type(2) p {
+  font-style: italic;
+  color: #dcdcdc;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+/* ===== WHAT WE DO SECTION ===== */
+.services {
+  text-align: center;
+  padding: 4rem 0;
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  padding: 2rem 1.5rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
